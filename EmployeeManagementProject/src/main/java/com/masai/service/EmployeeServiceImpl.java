@@ -75,7 +75,7 @@ public class EmployeeServiceImpl implements EmployeeSrvice {
 	public Employee deleteEmployee(Integer id) throws EmployeeNotFound {
 		// TODO Auto-generated method stub
 		Employee emp = new Employee();
-		deptDao.findByName(emp.getDepartment());
+		//deptDao.findByName(emp.getDepartment());
 		return null;
 	}
 
